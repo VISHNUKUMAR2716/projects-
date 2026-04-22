@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaDownload } from "react-icons/fa";
-import Resume from "../assets/WhatsApp Image 2025-02-07 at 10.30.36 AM.pdf";
+import Resume from "../assets/A_Vishnu_kumar_Resume (1).pdf";
 
 const About = () => {
   return (

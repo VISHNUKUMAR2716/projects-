@@ -103,7 +103,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <p className="text-center ">Copyright © 2024 Piraisudan R</p>
+      <p className="text-center ">Copyright © 2024 vishnu kumar A</p>
     </>
   );
 }
