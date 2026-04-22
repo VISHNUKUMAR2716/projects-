@@ -28,9 +28,16 @@ const Contact = () => {
   };
 
   return (
-    <div id="Contect" className="px-4 py-10 bg-gradient-to-b from-white to-gray-100">
-      <h1 className="text-center font-bold text-4xl mb-2 text-gray-800">Get In Touch</h1>
-      <h4 className="text-center text-lg text-gray-600 mb-6">I'd love to collaborate or answer your questions!</h4>
+    <div
+      id="Contect"
+      className="px-4 py-10 bg-gradient-to-b from-white to-gray-100"
+    >
+      <h1 className="text-center font-bold text-4xl mb-2 text-gray-800">
+        Get In Touch
+      </h1>
+      <h4 className="text-center text-lg text-gray-600 mb-6">
+        I'd love to collaborate or answer your questions!
+      </h4>
 
       {/* Social Icons */}
       <div className="flex justify-center gap-6 text-3xl mb-10">
@@ -61,7 +68,11 @@ const Contact = () => {
       {/* Contact Form */}
       <div className="max-w-2xl mx-auto bg-white backdrop-blur-md bg-opacity-70 p-8 rounded-xl shadow-xl">
         <form onSubmit={onSubmit}>
-          <input type="hidden" name="access_key" value="aa3fe033-332f-43f1-a433-69ac1bbe4cd1" />
+          <input
+            type="hidden"
+            name="access_key"
+            value="aa3fe033-332f-43f1-a433-69ac1bbe4cd1"
+          />
           <input
             type="text"
             name="name"
@@ -89,7 +100,11 @@ const Contact = () => {
             Send Message
           </button>
         </form>
-        {Result && <p className="text-center text-green-600 font-semibold mt-4">{Result}</p>}
+        {Result && (
+          <p className="text-center text-green-600 font-semibold mt-4">
+            {Result}
+          </p>
+        )}
       </div>
     </div>
   );
